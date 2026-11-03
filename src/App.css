@@ -1,0 +1,74 @@
+/* Main page */ 
+body { font-family: Arial, 
+  sans-serif; 
+  background-color: #f4f6f9; 
+  margin: 0; 
+  padding: 20px; 
+} 
+/* Heading */ 
+h1 { 
+  color: #263b80; 
+  text-align: center; 
+} 
+/* Table */ 
+table { 
+  width: 100%; 
+  border-collapse: collapse; 
+  margin-top: 20px; 
+  background-color: white; 
+} 
+th { 
+  background-color: #263b80; 
+  color: white; 
+  padding: 12px; 
+} 
+td { 
+  border: 1px solid #ddd; 
+  padding: 12px; 
+  text-align: center; 
+} 
+tr:nth-child(even) { 
+  background-color: #eaf2ff; 
+} 
+/* Input fields */ 
+input { 
+  padding: 10px; 
+  margin: 8px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+} 
+/* Add Student */ 
+button[type="submit"] { 
+  background-color: #219653; 
+  color: white; 
+  padding: 10px 18px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; } 
+  /* Edit */ 
+  .edit-btn { 
+    background-color: #f39c12; 
+    color: white; 
+    padding: 8px 14px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+  } 
+  /* Delete */ 
+  .delete-btn { 
+    background-color: #e74c3c; 
+    color: white; 
+    padding: 8px 14px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+  } 
+  /* Update */ 
+  .update-btn { 
+    background-color: #2874a6; 
+    color: white; 
+    padding: 10px 18px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+  }
